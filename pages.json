@@ -11,8 +11,13 @@
 			"style": {
 				"navigationBarTitleText": "个人中心"
 			}
+		},
+		{
+			"path" : "pages/adjust/index",
+			"style": {
+				"navigationBarTitleText": "调课"
+			}
 		}
-		
 		
 	],
 	"globalStyle": {
@@ -27,17 +32,28 @@
 		"selectedColor": "#212121",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
+		"position": "bottom",
 		"list": [
 			{
 				"pagePath": "pages/index/index",
-				"iconPath": "static/logo.png",
+				"iconPath": "static/images/home.png",
 				"text": "首页"
 			},
 			{
+				"pagePath": "pages/adjust/index",
+				"iconPath": "static/images/class.png",
+				"selectedIconPath": "static/images/class-h.png",
+				"text": "调课"
+			},
+
+			{
 				"pagePath": "pages/mine/index",
-				"iconPath": "static/logo.png",
+				"iconPath": "static/images/mine.png",
+				"selectedIconPath": "static/images/mine-h.png",
 				"text": "个人中心"
 			}
+
 		]
-	}
+	},
+	"usingComponents":{}
 }
